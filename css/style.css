@@ -1,18 +1,81 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
 
 :root {
-  --dark-violet: hsl(256, 26%, 20%);
-  --grayish-blue: hsl(216, 30%, 68%);
-  --very-dark-violet: hsl(270, 9%, 17%);
-  --dark-grayish-violet: hsl(273, 4%, 51%);
-  --very-light-gray: hsl(0, 0%, 98%);
+  --primary-font: "Karla", "Helvetica", sans-serif;
+  --secondary-font: "DM Serif Display", "Georgia", serif;
+  --primary-color: hsl(256, 26%, 20%);
+  --secondary-color: hsl(0, 0%, 98%);
+  --text-color: hsl(270, 9%, 17%);
+  --light-color: hsl(0, 0%, 100%);
+  --nav-item-color: hsl(0, 1%, 63%);
+  --gray-color: hsl(0, 0%, 50%);
+  --lightgray-color: hsl(0, 0%, 83%);
+  --line-color: hsl(0, 1%, 62%);
+  --footer-item-color: hsl(273, 4%, 51%);
 }
 
+html,
 body {
-  font-family: 'DM Serif Display', serif;
-  background-color: var(--very-light-gray);
-  color: var(--dark-violet);
+  font-family: var(--primary-font);
+  height: 100%;
+  margin: 0;
 }
+
+.header__mobile-menu-list,
+.hero,
+.advantages,
+.how-we-work__content,
+.footer,
+.footer__social-media,
+.footer__content {
+  position: relative;
+}
+
+.header__mobile-menu,
+.header__mobile-menu-bg-pattern,
+.hero__bg-pattern-right,
+.advantages__bg-pattern-left,
+.advantages__family-pic,
+.how-we-work__bg-pattern,
+.footer__bg-pattern {
+  podition: absolute;
+}
+
+.header__burger-btn,
+.header__exit-btn,
+.header__mobile-menu,
+.hero__bg-pattern-left-mobile,
+.hero__bg-pattern-right-mobile {
+  display: none;
+}
+
+.header,
+.header__logo-wrapper,
+.header__nav-list,
+.header__mobile-menu-list,
+.how-we-work__content,
+.footer__social-media,
+.social-media__list {
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
