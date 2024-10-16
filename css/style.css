@@ -61,7 +61,59 @@ body {
   align-items: center;
 }
 
+.header,
+.how-we-work__content,
+.footer__social-media,
+.footer__content {
+  justify-content: space-between;
+}
 
+.header__nav-list,
+.header__mobile-menu-list,
+.advantages__list,
+.social-media__list,
+.footer__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.header__nav,
+.header__nav-item a,
+.header__mobile-menu-item a,
+.button,
+.footer__item a {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.header__mobile-menu,
+.header__mobile-menu-list,
+.hero__bg-pattern-right,
+.button,
+.footer__social-media,
+.footer__line,
+.footer__content {
+  z-index: 2;
+}
+
+.header {
+  padding: 2.5rem 9.375rem;
+}
+
+.header__nav {
+  float: right;
+}
+
+.header__nav-list {
+  gap: 2.5rem;
+}
+
+.header__nav-item a {
+  letter-spacing: 0.1rem;
+  color: var(--nav-item-color);
+}
 
 
 
