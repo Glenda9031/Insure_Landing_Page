@@ -242,7 +242,7 @@ body {
 }
 
 .advantages__bg-pattern-left {
-  top: 10.625rem;
+  top: -10.625rem;
 }
 
 .advantages__family-pic {
@@ -251,6 +251,177 @@ body {
   width: 40%;
 }
 
+.advantages__content {
+  padding: 15.625rem 9.375rem 6.25rem;
+}
+
+.advantages__line {
+  width: 15%;
+  height: 0.0625rem;
+  margin-bottom: 3.125rem;
+  background-color: var(--line-color);
+}
+
+.advantages__list {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.advantages__item {
+  width: 33%;
+}
+
+.advantages__title,
+.advantages__item-title {
+  font-family: var(--secondary-font);
+  font-weight: 400;
+}
+
+.advantages__title {
+  margin-bottom: 4.375rem;
+  font-size: 4rem;
+}
+
+.advantages__item-title {
+  font-size: 1.5rem;
+}
+
+.advantages__item-description {
+  line-height: 1.6;
+  color: var(--gray-color);
+}
+
+.how-we-work {
+  height: 15.625rem;
+  padding: 0 9.375rem;
+}
+
+.how-we-work__content {
+  height: 100%;
+  padding: 0 6.25rem;
+  background-color: var(--primary-color);
+}
+
+.how-we-work__title {
+  font: 400 3rem var(--secondary-font);
+  line-height: 3rem;
+  color: var(--light-color);
+}
+
+.how-we-work__bg-pattern {
+  top: 0;
+  right: 0;
+  width: 27.1875rem;
+} 
+
+.footer {
+  padding-bottom: 4.0625rem;
+  background-color: var(--secondary-color);
+}
+
+.footer__social-media {
+  padding: 4.0625rem 9.375rem 1.875rem;
+}
+
+.social-media__list {
+  gap: 0.9375rem;
+}
+
+.footer__social-media img:hover {
+  filter: invert(1) brightness(0);
+}
+
+.footer__line {
+  width: 79%;
+  height: 0.0625rem;
+  margin: 0 auto 3.125rem;
+  background-color: var(--lightgray-color);
+}
+
+.footer__content {
+  display: flex;
+  padding: 0 21.875rem 0 9.375rem;
+}
+
+.footer__item {
+  line-height: 2rem;
+}
+
+.footer__item:first-child {
+  margin-bottom: 1.25rem;
+}
+
+.footer__item:first-child a {
+  color: var(--footer-item-color);
+}
+
+.footer__item a {
+  color: var(--text-color);
+}
+
+.footer__item a:hover {
+  text-decoration: underline;
+}
+
+.footer__bg-pattern {
+  top: 0;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 125rem) {
+  .hero-description {
+    width: 60%;
+  }
+
+  .advantages__family-pic {
+    width: 27%;
+  }
+
+  .advantages__item-description {
+    width: 50%;
+  }
+
+  .footer__line {
+    width: 88%;
+  }
+}
+
+@media (max-width: 64rem) {
+  .header {
+    padding: 2.5rem 5.625rem;
+  }
+
+  .header__nav-item a {
+    font-size: 0.7rem;
+  }
+
+  .hero {
+    height: 31.25rem;
+  }
+
+  .hero__bg-pattern-right {
+    width: 20rem;
+  }
+
+  .hero__content {
+    padding: 4.375rem 5.625rem;
+  }
+
+  .hero__title {
+    font-size: 3rem;
+  }
+
+  .hero__description {
+    width: 80%;
+    font-size: 0.875rem;
+  }
+
+  .button {
+    font-size: 0.7rem;
+  }
+
+  
+}
 
 
 
